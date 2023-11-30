@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background: #131427;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 90px;
+}
+.logo img {
+    width: 125px;
+}
+.fa-magnifying-glass {
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.search input {
+    width: 150px;
+    height: 20px;
+    border-radius: 20px;
+    padding: 5px;
+}
+.search {
+    display: flex;
+    align-items: center;
+}
+.navbar ul {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    list-style: none;
+}
+ul li a {
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+text-decoration: none;
+}
+ul li a:hover {
+    color: green;
+    transition: 0.5s;
+}
+main {
+    background: linear-gradient(rgba(0, 0, 0, 0.40),rgba(0, 0, 0, 0.40)), url("./images/image\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 609px;
+}
+h1 {
+    color: #FFF;
+font-family: Inter;
+font-size: 36px;
+font-weight: 400;
+margin-bottom: 22px;
+}
+h2 {
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+margin-bottom: 30px;
+}
+.Friends a {
+font-size: 60px;
+color: #131427;
+text-decoration: none;
+font-weight: 900;
+background-color: #D9D9D9;
+border-radius: 100%;
+padding: 10px 20px;
+}
+.Friends p {
+    color: #000;
+font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+background-color: #D9D9D9;
+padding: 10px;
+width: 375px;
+}
+.second a {
+    color: #000;
+font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+text-decoration: none;
+background-color: #D9D9D9;
+padding: 10px 90px;
+border-radius: 20px;
+}
+.first {
+    padding-top: 32px;
+    padding-left: 47px;
+}
+.second {
+    text-align: center;
+    padding-top: 80px;
+}
+.Friends {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+.second h2 {
+    margin-bottom: 80px;
+}
+footer {
+    background-color: #000;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 130px;
+    text-align: center;
+}
+footer h3 {
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+}
+footer p {
+    color: #FFF;
+text-align: center;
+font-size: 16px;
+font-family: Inter;
+font-weight: 400;
+}
